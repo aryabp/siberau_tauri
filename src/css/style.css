@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'additional-styles/utility-patterns.css';
+@import 'additional-styles/flatpickr.css';
+
+@import 'tailwindcss/utilities';
+
+html {
+  @apply h-full;
+}
+
+
+#root {
+  height: 100vh;
+}
+
+h3 {
+  @apply text-2xl font-bold;
+}
+
+h2 {
+  @apply text-3xl font-bold;
+}
+
+progress[value] {
+  background-color: blue;
+}
